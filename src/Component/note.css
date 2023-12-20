@@ -1,0 +1,16 @@
+.container-note{
+    border: 1px solid red;
+    padding-left: 15vw;
+    height: 100%;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+}
+.note{
+    border: 1px solid var(--border-color);
+    width: 18vw;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 0;
+}
